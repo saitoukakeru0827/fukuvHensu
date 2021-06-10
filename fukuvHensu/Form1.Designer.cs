@@ -31,8 +31,6 @@ namespace fukuvHensu
         {
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -49,22 +47,6 @@ namespace fukuvHensu
             this.label1.Size = new System.Drawing.Size(106, 59);
             this.label1.TabIndex = 0;
             this.label1.Text = "(\'ω\')";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(68, 49);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "0";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(68, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "0";
             // 
             // button1
             // 
@@ -120,8 +102,6 @@ namespace fukuvHensu
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -133,8 +113,6 @@ namespace fukuvHensu
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
